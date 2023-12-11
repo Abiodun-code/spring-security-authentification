@@ -13,4 +13,5 @@ public interface AuthenticationService {
   JWTAuthenticationResponse signIn(SignInRequest signInRequest);
 
   JWTAuthenticationResponse refreshToken(RefreshTokenRequest refreshTokenRequest);
+
 }
